@@ -1,5 +1,5 @@
 
-body {
+  body {
     background-image: url("https://wallpapercave.com/wp/wp11620070.jpg"); 
     font-family: "Monaco", monospace;
     background-size: cover;
@@ -139,3 +139,20 @@ body {
     font-weight: 900;
     font-size: 48px;
   }
+
+  /** Video_profile.html css **/
+
+  #page-wrapper1 {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
+    border-radius: 12px 12px 0px 0px; 
+  }
+  
+  #header-music{
+    position: relative;
+    margin-bottom: 55px;
+    border-radius: 10px 10px 0px 0px; 
+    color: white;
+  }
+  

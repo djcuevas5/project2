@@ -140,7 +140,7 @@
     font-size: 48px;
   }
 
-  /** Video_profile.html css **/
+  /* Video_profile.html css */
 
   #page-wrapper1 {
     width: 960px;
@@ -149,10 +149,94 @@
     border-radius: 12px 12px 0px 0px; 
   }
   
-  #header-music{
-    position: relative;
-    margin-bottom: 55px;
-    border-radius: 10px 10px 0px 0px; 
-    color: white;
+  #header-music {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(55, 54, 54)
   }
   
+  #header-music h1{
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+  }
+
+  #main-nav{
+    background-color: #3b3a3a
+  }
+
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  #heading2 {
+    text-align: center;
+    color: rgb(55, 54, 54);
+  }
+
+  /* resume.html css */
+  
+  #page-wrapper-resume {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
+    border-radius: 12px 12px 0px 0px;  
+  }
+
+  #header-resume {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(55, 54, 54)
+}
+
+  #main-nav-resume{
+    background-color: #3b3a3a
+  }
+
+  #header-resume ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#header-resume ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#header-resume ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.intro{
+  text-align: center;
+}
+
+#content-wrapper-resume{
+  background-color: #b69b8c;
+}
+
+#skills ul , #skills ul , #experience ul, #activities-honors ul {
+  text-align: left;
+  list-style-type: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profile{
+  text-align: center;
+}
+
+
+
+

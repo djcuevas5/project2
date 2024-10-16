@@ -1,4 +1,4 @@
-normalize.css:article,
+article,
 aside,
 details,
 figcaption,
@@ -9,65 +9,64 @@ hgroup,
 main,
 nav,
 section,
-
 summary {
-	display:block;
+    display: block;
 }
 
 audio,
 canvas,
 video {
-	display: inline-block;
-	}
-	
-audio:not([controls]){
-	display:none;
-	height: 0;
-}
-[hidden]{
-	display: none;
-}
-html{
-	font-family: sans-serif;
-	webkit-text-size-adjust: 100%;
-	ms-text-size-adjust: 100%;	
-}
-body{
-	margin:0;
+    display: inline-block;
 }
 
-a:focus{
-	outline: thin dotted;
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
 }
 
 a:active,
-a:hover{
-	outline:0;
-} 
-h1{
-	font-size:2em;
-	margin:0.67em 0;
+a:hover {
+    outline: 0;
 }
-abbr[title]{
-	border-bottom: 1px dotted;
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
 }
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
 b,
 strong {
     font-weight: bold;
 }
-
 
 dfn {
     font-style: italic;
 }
 
 hr {
-    -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
 }
-
-
 
 mark {
     background: #ff0;
@@ -82,7 +81,6 @@ samp {
     font-size: 1em;
 }
 
-
 pre {
     white-space: pre-wrap;
 }
@@ -91,11 +89,9 @@ q {
     quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-
 small {
     font-size: 80%;
 }
-
 
 sub,
 sup {
@@ -132,8 +128,8 @@ fieldset {
 }
 
 legend {
-    border: 0; 
-    padding: 0; 
+    border: 0;
+    padding: 0;
 }
 
 button,
@@ -141,49 +137,41 @@ input,
 select,
 textarea {
     font-family: inherit;
-    font-size: 100%; 
+    font-size: 100%;
     margin: 0;
 }
-
 
 button,
 input {
     line-height: normal;
 }
 
-
 button,
 select {
     text-transform: none;
 }
 
-
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
+    -webkit-appearance: button;
+    cursor: pointer;
 }
-
 
 button[disabled],
 html input[disabled] {
     cursor: default;
 }
 
-
-
 input[type="checkbox"],
 input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
+    box-sizing: border-box;
+    padding: 0;
 }
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
+    -webkit-appearance: textfield;
     box-sizing: content-box;
 }
 
@@ -199,8 +187,8 @@ input::-moz-focus-inner {
 }
 
 textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
+    overflow: auto;
+    vertical-align: top;
 }
 
 table {

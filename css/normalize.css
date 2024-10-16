@@ -30,6 +30,10 @@ audio:not([controls]) {
 
 html {
     font-family: sans-serif;
+    /* Add unprefixed versions for modern browsers */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -64,6 +68,7 @@ dfn {
 }
 
 hr {
+    -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
 }
@@ -156,6 +161,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
+    appearance: button; /* Add this for modern browsers */
     cursor: pointer;
 }
 
@@ -172,6 +178,8 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
 }
 

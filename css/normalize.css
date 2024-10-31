@@ -30,7 +30,7 @@ audio:not([controls]) {
 
 html {
     font-family: sans-serif;
-    text-size-adjust: 100%; /* Removed vendor prefixes */
+    text-size-adjust: 100%; 
 }
 
 body {
@@ -65,5 +65,5 @@ dfn {
 }
 
 hr {
-    box-sizing: content-box; /* Removed vendor prefixes */
+    box-sizing: content-box; 
 }

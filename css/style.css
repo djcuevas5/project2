@@ -151,7 +151,7 @@
   
   #header-music {
     text-align: center;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
     padding: 10px;
     border-radius: 10px;
     color: rgb(55, 54, 54)
@@ -159,7 +159,8 @@
   
   #header-music h1{
     font-size: 3em;
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
+
   }
 
   #main-nav{
@@ -246,13 +247,13 @@
 }
 
 .intro {
-  width: 70%;
-  float: left;
+  max-width: 800px; 
+  margin: 20px auto; 
   background-color: #f4f4f4;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  text-align: center; 
 }
 
 #skills, #experience, #activities-honors {

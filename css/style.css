@@ -181,62 +181,134 @@
 
   /* resume.html css */
   
-  #page-wrapper-resume {
-    width: 960px;
-    margin: 0 auto;
-    box-shadow: 0px 4px 8px 2px rgb(55, 54, 54); 
-    border-radius: 12px 12px 0px 0px;  
-  }
+#page-wrapper-resume {
+  width: 960px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 2px rgb(55, 54, 54);
+  border-radius: 12px 12px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.9); 
 
-  #header-resume {
-    text-align: center;
-    font-family: 'Georgia', serif;
-    padding: 10px;
-    border-radius: 10px;
-    color: rgb(55, 54, 54)
 }
 
-  #main-nav-resume{
-    background-color: #3b3a3a
-  }
+#header-resume {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(55, 54, 54);
+}
 
-  #header-resume ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
-    text-align: center;
+#header-resume h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#main-nav-resume {
+  background-color: #3b3a3a;
+  padding: 10px 0;
+}
+
+#header-resume ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #header-resume ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
 #header-resume ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
 }
 
-.intro{
-  text-align: center;
-}
-
-#content-wrapper-resume{
+#header-resume ul li a:hover {
   background-color: #b69b8c;
+  color: #2f2e2e;
+  border-radius: 5px;
 }
 
-#skills ul , #skills ul , #experience ul, #activities-honors ul {
-  text-align: left;
-  list-style-type: none;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#profile{
+#profile {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
+.intro {
+  width: 70%;
+  float: left;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+#skills, #experience, #activities-honors {
+  clear: both;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#skills ul, #experience ul, #activities-honors ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills ul li, #experience ul li, #activities-honors ul li {
+  margin-bottom: 10px;
+}
+
+#footer {
+  background-color: #b7937e;
+  height: 80px;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 0 0 12px 12px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: rgb(55, 54, 54);
+}
+
+strong {
+  font-weight: bold;
+}
+#content-wrapper-resume {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #b69b8c;
+  padding: 20px;
+}
+
+#profile {
+  width: 50%; 
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
 
 
 
